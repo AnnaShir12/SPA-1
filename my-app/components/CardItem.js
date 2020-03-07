@@ -1,6 +1,6 @@
 
 function CardItem(props) {
-  console.log(props)
+  // console.log(props)
   return (<div className="user-card" onClick={() => console.log(props.id)}>
     <div className="user-card__photo"></div>
     <div className="user-card__name">{props.name}</div>
